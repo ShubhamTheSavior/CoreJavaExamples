@@ -1,0 +1,10 @@
+package string_stringbuffer;
+
+public class StringVsSB {
+	public static void main(String[] args) {
+		String s=new String("durga");
+		String s1=new String("durga");
+		System.out.println(s==s1);
+		System.out.println(s.equals(s1));
+	}
+}
